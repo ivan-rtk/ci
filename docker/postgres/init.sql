@@ -1,0 +1,5 @@
+CREATE USER prokopev WITH PASSWORD 'prokopev';
+
+CREATE DATABASE fly_test;
+
+GRANT ALL PRIVILEGES ON DATABASE fly_test TO prokopev;
